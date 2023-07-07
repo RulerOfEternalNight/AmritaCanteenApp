@@ -1,0 +1,195 @@
+item {
+  id: 1
+  name: 'butter milk - 10'
+}
+
+item {
+  id: 2
+  name: 'grape - 40'
+}
+
+item {
+  id: 3
+  name: 'lime - 20'
+}
+
+item {
+  id: 4
+  name: 'musk melon - 30'
+}
+
+item {
+  id: 5
+  name: 'water melon - 20'
+}
+
+item {
+  id: 6
+  name: 'orange - 70'
+}
+
+item {
+  id: 7
+  name: 'pineapple - 60'
+}
+
+item {
+  id: 8
+  name: 'musambi - 60'
+}
+
+item {
+  id: 9
+  name: 'pista milk - 20'
+}
+
+item {
+  id: 10
+  name: 'badam milkshake - 50'
+}
+
+item {
+  id: 11
+  name: 'pineapple drink - 20'
+}
+
+item {
+  id: 12
+  name: 'nutty bar - 30'
+}
+
+item {
+  id: 13
+  name: 'butterscotch cone - 35'
+}
+
+item {
+  id: 14
+  name: 'black current cone - 40'
+}
+
+item {
+  id: 15
+  name: 'black forest cake - 50'
+}
+
+item {
+  id: 16
+  name: 'idly(4) - 32'
+}
+
+item {
+  id: 17
+  name: 'wheat upma - 25'
+}
+
+item {
+  id: 18
+  name: 'chapathi egg masala - 93'
+}
+
+item {
+  id: 19
+  name: 'fish Meals - 75'
+}
+
+item {
+  id: 20
+  name: 'mathi fry - 50'
+}
+
+item {
+  id: 21
+  name: 'katla fry - 60'
+}
+
+item {
+  id: 22
+  name: 'single omelet - 15'
+}
+
+item {
+  id: 23
+  name: 'double omelet - 30'
+}
+
+item {
+  id: 24
+  name: 'egg briyani half -50'
+}
+
+item {
+  id: 25
+  name: 'egg briyani - 80'
+}
+
+item {
+  id: 26
+  name: 'parotta - 90'
+}
+
+item {
+  id: 27
+  name: 'veg puff - 15'
+}
+
+item {
+  id: 28
+  name: 'badhusa -15'
+}
+
+item {
+  id: 29
+  name: 'dill puff - 15'
+}
+
+item {
+  id: 30
+  name: 'bread toast - 15'
+}
+
+item {
+  id: 31
+  name: 'cookies - 5'
+}
+
+item {
+  id: 32
+  name: 'cutlet - 20'
+}
+
+item {
+  id: 33
+  name: 'Tea - 10'
+}
+
+item {
+  id: 34
+  name: 'coffee - 15'
+}
+
+item {
+  id: 35
+  name: 'boost - 35'
+}
+
+item {
+  id: 36
+  name: 'horlicks - 35'
+}
+
+item {
+  id: 37
+  name: 'bournvita - 35'
+}
+
+item {
+  id: 38
+  name: 'sukku coffee - 10'
+}
+
+item {
+  id: 39
+  name: 'black tea - 10'
+}
+

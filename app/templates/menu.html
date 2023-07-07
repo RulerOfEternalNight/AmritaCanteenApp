@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+	<title>AmritBites</title>
+	<meta charset="utf-8">
+	<link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<a href="/"><img class="logo" src="{{url_for('static', filename='images/AMRIT_BITES.png')}}" width="513" height="84" alt="" title=""></a>
+			<a href="/"><img  src="{{url_for('static', filename='images/waitress.png')}}" width="332" height="205" alt="" title=""></a>
+			<ul class="navigation">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<!-- <li>
+					<a href="/menu">Menu</a>
+				</li> -->
+				<!-- <li>
+					<a href="contact.html">Contact</a>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div class="content">
+			<div>
+				<div>
+					<h1>Current Menu <img class="logo" src="{{url_for('static', filename='images/menu.png')}}" width="75" height="50"></h1>
+                    <p>----------------------------------------------------------------------------------------------------------</p>
+					<ul>
+						{% for i in range(size) %}
+                        <li>
+							<h2>{{fdata[i]}}</h2>
+							<p>
+								Price: ₹{{cdata[i]}}
+							</p>
+						{% endfor %}
+						</li>
+		
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar">
+
+			<h1>Get Stats</h1>
+			<ul class="navigation">
+				<li>
+					<a href="/ITstats">Traffic</a>
+				</li>
+			</ul>
+
+			<!-- <h1>Menu</h1>
+			<ul class="navigation">
+				<li>
+					<a href="/menu">ALL</a>
+				</li>
+				<li class="first">
+					<a href="/snacks">SNACKS</a>
+				</li>
+				<li>
+					<a href="/sides">SIDES</a>
+				</li>
+				<li>
+					<a href="/beverage">BEVERAGES</a>
+				</li>
+			</ul> -->
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li class="first">
+					<h3>Done by</h3>
+				</li>
+				<li>
+					<h3 style="font-size: medium;">Dheepak Raaj R</h3>
+					<h3 style="font-size: medium;">Chandana Daggupati</h3>
+					<h3 style="font-size: medium;">Jai Vardhan N</h3>
+					<h3 style="font-size: medium;">Jegadit S Saravanan</h3>
+				</li>
+				<li class="last">
+					<span>&copy; 2023 AmritBites.com. All Rights Reserved</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

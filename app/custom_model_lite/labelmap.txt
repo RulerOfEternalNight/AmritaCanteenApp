@@ -1,0 +1,39 @@
+butter milk - 10
+grape - 40
+lime - 20
+musk melon - 30
+water melon - 20
+orange - 70
+pineapple - 60
+musambi - 60
+pista milk - 20
+badam milkshake - 50
+pineapple drink - 20
+nutty bar - 30
+butterscotch cone - 35
+black current cone - 40
+black forest cake - 50
+idly(4) - 32
+wheat upma - 25
+chapathi egg masala - 93
+fish Meals - 75
+mathi fry - 50
+katla fry - 60
+single omelet - 15
+double omelet - 30
+egg briyani half -50
+egg briyani - 80
+parotta - 90
+veg puff - 15
+badhusa -15
+dill puff - 15
+bread toast - 15
+cookies - 5
+cutlet - 20
+Tea - 10
+coffee - 15
+boost - 35
+horlicks - 35
+bournvita - 35
+sukku coffee - 10
+black tea - 10

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+	<title>AmritBites</title>
+	<meta charset="utf-8">
+	<link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div>
+			<a href="/"><img class="logo" src="{{url_for('static', filename='images/AMRIT_BITES.png')}}" width="513"
+					height="84" alt="" title=""></a>
+			<a href="/"><img src="{{url_for('static', filename='images/waitress.png')}}" width="332" height="205" alt=""
+					title=""></a>
+			<ul class="navigation">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/menu">Menu</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="body">
+		<center>
+			<br>
+			<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+			<br>
+			<p style="font-family: Raleway; font-size: 36px; font-weight: bold; color: #1b6568;">
+				There are currently {{count}} people in the canteen
+			</p>
+		</center>
+	</div>
+
+	<div id="footer">
+		<div>
+			<ul>
+				<li class="first">
+					<h3>Done by</h3>
+				</li>
+				<li>
+					<h3 style="font-size: medium;">Dheepak Raaj R</h3>
+					<h3 style="font-size: medium;">Chandana Daggupati</h3>
+					<h3 style="font-size: medium;">Jai Vardhan N</h3>
+					<h3 style="font-size: medium;">Jegadit S Saravanan</h3>
+				</li>
+				<li class="last">
+					<span>&copy; 2023 AmritBites.com. All Rights Reserved</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script>
+		const yValues = [35, 41, 41, 44, 41, 41, 35, 36, 27, 24, 16, 22, 23, 25, 15, 16, 15, 25, 31];
+		const xValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+
+		new Chart("myChart", {
+			type: "line",
+			data: {
+				labels: xValues,
+				datasets: [{
+					fill: false,
+					lineTension: 0,
+					backgroundColor: "rgba(0,0,255,1.0)",
+					borderColor: "rgba(0,0,255,0.6)",
+					data: yValues
+				}]
+			},
+			options: {
+				legend: { display: false },
+				scales: {
+					yAxes: [{ ticks: { min: 0, max: 80 } }],
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>

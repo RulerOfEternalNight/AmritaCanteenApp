@@ -1,0 +1,1 @@
+## Detect if there is a person in the picture or not
